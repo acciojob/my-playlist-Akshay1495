@@ -15,10 +15,11 @@ ul {
 
 li {
     margin-bottom: 10px;
+	list-style-type: none;
 }
-
 a {
-    text-decoration-line: none;
+  text-decoration: none;
+	color: black;
 }
 
 .player_one, .player_two {
@@ -28,3 +29,6 @@ a {
     margin-bottom: 20px;
 }
 
+.player_two {
+	align-items: center;
+}
